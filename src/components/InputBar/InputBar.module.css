@@ -1,0 +1,39 @@
+.inputBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBar input {
+  padding: 1rem;
+  width: 40rem;
+  font-size: 1rem;
+  color: var(--gray-300);
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  /* height: 3.5rem; */
+  border-radius: 8px;
+  transform: translateY(-50%);
+}
+
+.inputBar button {
+  display: flex;
+  align-items: center;
+  background-color: var(--green-300);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  transform: translateY(-50%);
+  margin-left: 0.5rem;
+  transition: background-color 0.2s;
+}
+.plusCircle {
+  margin-left: 0.5rem;
+}
+
+.inputBar button:hover {
+  background-color: var(--green-500);
+}

@@ -1,0 +1,47 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 48.5rem;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  height: 4.5rem;
+  margin-bottom: 0.875rem;
+}
+.trash {
+  background: transparent;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+  color: var(--gray-300);
+  border-radius: 4px;
+  padding-right: 1rem;
+  transform: translateY(45%);
+  transition: color 0.1s;
+}
+
+.check {
+  color: var(--green-300);
+  background: transparent;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.task div {
+  display: flex;
+  align-items: center;
+}
+
+.task div p {
+  font-size: 1rem;
+}
+
+.trash:hover {
+  color: var(--red);
+}
+
+del {
+  color: var(--gray-300);
+}
